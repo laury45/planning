@@ -1,0 +1,9 @@
+{% extends "IutTestBundle::layout.html.twig" %}
+{% block content %}
+<h1> Tableau </h1>
+<u1>
+{% for value in tab %}
+<li>{{value}}</li>
+{%endfor %}
+</ul>
+{% endblock %}

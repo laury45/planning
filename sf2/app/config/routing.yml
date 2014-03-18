@@ -1,0 +1,10 @@
+planning:
+    resource: "@PlanningBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+iut_test:
+    resource: "@IutTestBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
